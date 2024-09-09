@@ -1,100 +1,42 @@
-<!--CLASE 1-->
-<!DOCTYPE html> <!-- 
-    ayuda a renderizzar bien al programa
-  -->
+<!DOCTYPE html>
 <html lang="en">
-<!-- 
-  Esto es el tipo de idioma en el cual va a empezar
--->
-
 <head>
-  <meta charset="UTF-8">
-  <!-- 
-  especificar es para poder uilizar ñ, acentos
--->
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <!-- 
- es para que se vea bien en los dispositivos mobiles
--->
-  <title>Mi primer sitio WEB</title>
-  <!-- /el titulo es importante por que sirve para las recomendaciones, que sepa, etc-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="miarchivo.css">
+    <title>Document</title>
 </head>
-
 <body>
-  <!-- 
-  Aqui es donde deberia mostrarse
--->
-  <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa ex nisi blanditiis necessitatibus quo voluptatem,
-    eaque repellat libero enim aut mollitia et neque. Eaque ullam, consequuntur error ratione numquam iusto.</p>
-  <!--lorem es para que te de un parrafo aleatorio-->
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Repellendus excepturi, nam optio sit officiis fugiat
-    blanditiis ipsam laborum veniam libero animi expedita dicta provident molestias, labore maxime ratione doloribus
-    sunt.</p>
-  <!-- 
- ul>li*4
--->
-  <ul>
-    <li>1</li>
-    <li>2</li>
-    <li>3</li>
-    <li>4</li>
-  </ul>
-  <!-- 
- p.foo
--->
-  <!--CLASE 2-->
-  <p class="foo"></p>
-
-  <div style="background-color: red;border:5px solid black">
-    Elemento de bloque
-  </div>
-  <span style="background-color: yellow;">Hola</span>
-  <span style="background-color: green">Mundo</span>
-  <div style="background-color: orange">Cruel</div>
-  <p style="background-color: violet">Bloque</p>
-  <p style="background-color:aqua">Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit quaerat, et dolore
-    recusandae atque eos velit animi quis qui eaque sunt assumenda rem ea placeat totam minus libero repellat. Eos!</p>
-  <!--CLASE 3-->
-  <div style="background-color: aqua; border: 5px solid green; padding: 8px;">hola bb</div>
-  <span style="background-color: aquamarine;">MUNDO</span>
-
-  <div id="header" style="background-color: blue; color: white;">
-    HEADER
-    <div id="nav" style="background-color: lightblue;">
-      NAV
-    </div>
-  </div>
-
-  <div style="display: flex;">
-    <div id="aside-left" style="background-color: orange; width: 20%; padding: 10px;">
-      ASIDE-LEFT
-    </div>
-
-    <div id="main" style="background-color: yellow; width: 60%; padding: 10px;">
-      MAIN
-      <div id="article">
-        <div id="section1" style="border: 1px dashed black; margin-bottom: 10px; padding: 10px;">
-          SECTION-1
+    <div id="header" style="background-color: blue">
+        HEADER
+        <div id="nav" style="background-color:blue">
+            <ul>
+                <li>Enlace 1</li>
+                <li>Enlace 2</li>
+                <li>Enlace 3</li>
+                <li>Enlace 4</li>
+            </ul>
         </div>
-        <div id="section2" style="border: 1px dashed black; padding: 10px;">
-          SECTION-2
+    </div>    
+        
+    <div id="aside-left">
+            ASIDE-LEFT
+    </div>
+    <div id="main" >
+            MAIN
+        <div id="article">
+            <span class="keyword" id="section1">
+                Lorem ipsum, dolor sit amet consectetur adipisicing elit. Cumque voluptates distinctio modi aspernatur nulla, laudantium quibusdam nihil quod aut quo magni vero repellat pariatur hic ad accusamus totam rerum corrupti?
+            </span>
+            <span class="keyword" id="section2">
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Excepturi, perferendis mollitia voluptatibus nulla rerum adipisci alias assumenda? Quas, ducimus nulla quidem magnam suscipit nemo modi illo neque vero, asperiores similique.
+            </span>
         </div>
-      </div>
     </div>
+    <div id="aside-right" >
 
-    <div id="aside-right" style="background-color: orange; width: 20%; padding: 10px;">
-      ASIDE-RIGHT
+        ASIDE-RIGHT
     </div>
-  </div>
-
-  <div id="footer" style="background-color: blue; color: white; padding: 10px; text-align: center;">
-    FOOTER
-  </div>
-
-
-</body>
-
-
-
-
-</html>
+    <div id="footer" >
+        FOOTER
+    </div>
